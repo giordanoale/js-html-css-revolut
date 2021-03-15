@@ -14,6 +14,7 @@
 //   $(this).children(".dropdown-menu").slideToggle("fast");
 // });
 
+
 //Soluzione con CSS
 var menu = $(".dropdown-menu");
 

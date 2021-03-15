@@ -46,6 +46,7 @@ header li:hover {
   color: #000;
 }
 
+/* Dropdown Menu */
 .dropdown-menu {
   display: none;
   position: absolute;
@@ -60,6 +61,7 @@ header li:hover {
   padding: 20px 10px 20px 10px;
   margin-right: 0;
 }
+/* /Dropdown Menu */
 
 /* bottoni */
 .btn {
@@ -88,6 +90,7 @@ header li:hover {
   opacity: 0.5;
   color:#fff;
 }
+/* /bottoni */
 
 .active {
   display: block
