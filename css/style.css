@@ -3,3 +3,58 @@
   margin: 0;
   box-sizing: border-box;
 }
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+header li {
+  list-style: none;
+  margin-right: 20px;
+  cursor: pointer;
+  color: #cccccc;
+  position: relative;
+}
+
+header li:hover {
+  color: #000;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 80%;
+  margin: auto;
+}
+
+.container ul {
+  display: flex;
+}
+
+.left-menu {
+  display: flex;
+  align-items: center;
+}
+
+.left-menu img {
+  height: 50px;
+}
+
+.right-menu {
+  display: flex;
+}
+
+#personal {
+  color: #000;
+}
+
+.dropdown-menu {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+}
+
+.dropdown-menu li {
+  padding: 5px 0 5px 0;
+}
