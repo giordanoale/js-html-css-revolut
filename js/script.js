@@ -9,7 +9,17 @@
 
 
 //Soluzione al Click
+// $(".main-nav li").click(function() {
+//   $(".dropdown-menu").slideUp("fast");
+//   $(this).children(".dropdown-menu").slideToggle("fast");
+// });
+
+//Soluzione con CSS
+var menu = $(".dropdown-menu");
+
 $(".main-nav li").click(function() {
-  $(".dropdown-menu").slideUp("fast");
-  $(this).children(".dropdown-menu").slideToggle("fast");
+  if (menu.hasClass("active")) {
+    menu.removeClass("active");
+  }
+  $(this).children(menu).addClass("active");
 });
