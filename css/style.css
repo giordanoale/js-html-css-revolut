@@ -1,3 +1,4 @@
+/* general */
 * {
   padding: 0;
   margin: 0;
@@ -8,9 +9,16 @@ body {
   font-family: 'Roboto', sans-serif;
 }
 
+.flex{
+  display: flex;
+  align-items: center;
+}
+/* general */
+
+/* header */
 header li {
   list-style: none;
-  margin-right: 20px;
+  margin-right: 40px;
   cursor: pointer;
   color: #cccccc;
   position: relative;
@@ -21,28 +29,14 @@ header li:hover {
 }
 
 .container {
-  display: flex;
   justify-content: space-between;
   align-items: center;
   width: 80%;
   margin: auto;
 }
 
-.container ul {
-  display: flex;
-}
-
-.left-menu {
-  display: flex;
-  align-items: center;
-}
-
 .left-menu img {
   height: 50px;
-}
-
-.right-menu {
-  display: flex;
 }
 
 #personal {
@@ -50,11 +44,13 @@ header li:hover {
 }
 
 .dropdown-menu {
-  display: flex;
-  flex-direction: column;
+  display: none;
   position: absolute;
+  width: 145px;
 }
 
 .dropdown-menu li {
-  padding: 5px 0 5px 0;
+  padding-top: 20px;
+  margin-right: 0;
 }
+/* header */
